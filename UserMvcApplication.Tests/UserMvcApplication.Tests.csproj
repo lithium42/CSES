@@ -6,11 +6,11 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{76A64018-3951-436F-A6CC-0A5D1364C534}</ProjectGuid>
+    <ProjectGuid>{BB36F7E4-E98C-4148-B4F1-AF60B604CF44}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AdminMvcApplication.Tests</RootNamespace>
-    <AssemblyName>AdminMvcApplication.Tests</AssemblyName>
+    <RootNamespace>UserMvcApplication.Tests</RootNamespace>
+    <AssemblyName>UserMvcApplication.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -56,9 +56,9 @@
     <Content Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AdminMvcApplication\AdminMvcApplication.csproj">
-      <Project>{A18B7476-1B54-4EB3-9EE7-BF7EF9F92A2C}</Project>
-      <Name>AdminMvcApplication</Name>
+    <ProjectReference Include="..\UserMvcApplication\UserMvcApplication.csproj">
+      <Project>{EC9F3DB7-436D-4FB9-9525-10774DA74E93}</Project>
+      <Name>UserMvcApplication</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
